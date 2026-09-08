@@ -1,0 +1,28 @@
+{
+  "name": "SDCodex Plugin Store",
+  "description": "Official store of SDCodex community plugins. Adding a plugin here makes it installable through SDCodex Settings -> Plugins.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "id": "comfy-caption",
+      "name": "ComfyUI Caption & Gallery",
+      "description": "Integrated image gallery, auto-captioning with LLMs/JoyCaption, and ComfyUI custom workflow nodes.",
+      "repository": "https://github.com/DeeplabSystems/SDCodex-ComfyCaption",
+      "version": "1.0.0"
+    },
+    {
+      "id": "gallery-dl",
+      "name": "GalleryDL & Tools",
+      "description": "Background gallery-dl and yt-dlp task management, quick downloads, kiosks, and OAuth configuration.",
+      "repository": "https://github.com/DeeplabSystems/SDCodex-GalleryDL",
+      "version": "1.0.0"
+    },
+    {
+      "id": "rembg",
+      "name": "RemBG Background Tools",
+      "description": "High-precision background removal, replacement, and batch processing powered by BiRefNet.",
+      "repository": "https://github.com/DeeplabSystems/SDCodex-RemBG",
+      "version": "1.0.0"
+    }
+  ]
+}
