@@ -1,21 +1,28 @@
 {
   "name": "SDCodex Plugin Store",
   "description": "Official store of SDCodex community plugins. Adding a plugin here makes it installable through SDCodex Settings -> Plugins.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "plugins": [
     {
       "id": "comfy-caption",
-      "name": "ComfyUI Caption & Gallery",
-      "description": "Integrated image gallery, auto-captioning with LLMs/JoyCaption, and ComfyUI custom workflow nodes.",
+      "name": "ComfyUI Captioning",
+      "description": "Auto-captioning with LLMs/JoyCaption and ComfyUI custom workflow nodes. The gallery now lives in the separate SDCodex Gallery plugin, which reads directly from disk (no database, no save-to-gallery).",
       "repository": "https://github.com/DeeplabSystems/SDCodex-ComfyCaption",
-      "version": "1.1.0"
+      "version": "2.0.0"
+    },
+    {
+      "id": "gallery",
+      "name": "SDCodex Gallery",
+      "description": "Disk-backed media gallery that scans folders directly, reads captions/.txt sidecars, SD prompts and ComfyUI workflows from image metadata, and downloads workflows as JSON. No database required.",
+      "repository": "https://github.com/DeeplabSystems/SDCodex-Gallery",
+      "version": "2.0.0"
     },
     {
       "id": "gallery-dl",
-      "name": "GalleryDL & Tools",
-      "description": "Background gallery-dl and yt-dlp task management, quick downloads, kiosks, and OAuth configuration.",
+      "name": "GalleryDL & Tasks",
+      "description": "Background gallery-dl and yt-dlp task management, quick downloads, kiosks, OAuth configuration, and a persistent activity log.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-GalleryDL",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "id": "rembg",
