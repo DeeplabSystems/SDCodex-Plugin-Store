@@ -9,14 +9,14 @@
       "name": "ComfyUI Captioning",
       "description": "Auto-captioning with LLMs/JoyCaption and ComfyUI custom workflow nodes. The gallery now lives in the separate SDCodex Gallery plugin, which reads directly from disk (no database, no save-to-gallery).",
       "repository": "https://github.com/DeeplabSystems/SDCodex-ComfyCaption",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
     {
       "id": "gallery",
       "name": "SDCodex Gallery",
       "description": "Disk-backed media gallery built into the SD Codex header. Scans folders directly, reads captions/.txt sidecars, SD prompts and ComfyUI workflows from image metadata, and downloads workflows as JSON. No database required.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-Gallery",
-      "version": "2.3.0"
+      "version": "2.4.0"
     },
     {
       "id": "gallery-dl",
