@@ -22,7 +22,7 @@
       "name": "GalleryDL & Tasks",
       "description": "Background gallery-dl and yt-dlp task management, quick downloads, kiosks, OAuth configuration, and a persistent activity log.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-GalleryDL",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "id": "rembg",
