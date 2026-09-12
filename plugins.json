@@ -6,20 +6,20 @@
     {
       "id": "comfy-caption",
       "name": "ComfyUI Captioning",
-      "description": "Auto-captioning with LLMs/JoyCaption and ComfyUI custom workflow nodes. The gallery now lives in the separate SDCodex Gallery plugin, which reads directly from disk (no database, no save-to-gallery).",
+      "description": "Auto-captioning with LLMs/JoyCaption and ComfyUI custom workflow nodes. Captioning GGUF models can be downloaded from HuggingFace via the Caption Models settings page.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-ComfyCaption",
       "version": "2.3.0"
     },
     {
       "id": "gallery",
       "name": "SDCodex Gallery",
-      "description": "Disk-backed media gallery built into the SD Codex header. Scans folders directly, reads captions/.txt sidecars, SD prompts and ComfyUI workflows from image metadata, and downloads workflows as JSON. No database required.",
+      "description": "Disk-backed media gallery built into the SD Codex header. Scans folders directly, reads captions/.txt sidecars, SD prompts and ComfyUI workflows from image metadata, and downloads workflows as JSON.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-Gallery",
       "version": "2.5.9"
     },
     {
       "id": "gallery-dl",
-      "name": "GalleryDL & Tasks",
+      "name": "GalleryDL & Tools",
       "description": "Background gallery-dl and yt-dlp task management, quick downloads, kiosks, OAuth configuration, and a persistent activity log.",
       "repository": "https://github.com/DeeplabSystems/SDCodex-GalleryDL",
       "version": "1.4.1"
